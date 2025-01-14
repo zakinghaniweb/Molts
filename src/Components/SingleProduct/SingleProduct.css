@@ -1,0 +1,114 @@
+.product-card{
+    @apply
+    w-[300px]
+    bg-white
+    border-[1px]
+    border-gray-200
+    rounded-xl
+    px-[20px]
+    py-[10px]
+    transition-all
+    hover:shadow-lg
+    relative
+    hover:shadow-brandColorLight
+}
+.product-card:hover .product-img img{
+    @apply
+    scale-[110%]
+}
+.product-card .product-img img{
+    @apply
+    transition-all
+    duration-300
+}
+.product-img{
+    @apply
+    w-full
+    h-[240px]
+    flex
+    rounded-xl
+    items-center
+    justify-center
+    relative
+    overflow-hidden
+    mb-[10px]
+    transition-all
+}
+.product-card img{
+    @apply
+    max-w-[90%]
+    max-h-[90%]
+    relative
+    z-[1]
+}
+.product-card .round{
+    @apply
+    w-[140px]
+    h-[140px]
+    bg-brandColorLight
+    rounded-full
+    absolute
+}
+.product-body h2{
+    @apply
+    font-Poppins
+    font-semibold
+    text-[20px]
+    break-words
+    text-[#3f3f3f]
+    mb-[5px]
+}
+.product-body p{
+    @apply
+    font-Poppins
+    font-normal
+    text-[14px]
+    break-words
+    text-[#666666]
+    mb-[8px]
+}
+.product-body h3{
+    @apply
+    font-Poppins
+    font-normal
+    text-[20px]
+    text-green-500
+    mb-[8px]
+}
+.product-body button{
+    @apply
+    font-Poppins
+    font-normal
+    text-[12px]
+    text-white
+    py-[5px]
+    px-[10px]
+    rounded-2xl
+    bg-black
+    flex gap-[5px]
+    items-center
+    hover:bg-gray-200
+    hover:text-black
+    mb-[10px]
+}
+.offerTag{
+    @apply
+    px-[20px]
+    h-[20px]
+    bg-red-500
+    absolute
+    top-0
+    left-0
+    box-content
+    pb-[4px]
+    z-[3]
+    ;
+    clip-path: polygon(100% 0, 90% 50%, 100% 100%, 0 100%, 0 0);
+}
+.offerTag span{
+    @apply
+    font-Poppins
+    font-medium
+    text-[14px]
+    text-white
+}

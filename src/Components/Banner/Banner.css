@@ -1,0 +1,127 @@
+.banner-row{
+    @apply
+    2xl:px-[70px]
+}
+.banner-single-slide{
+    @apply
+    w-full
+    lg:w-[900px]
+    lg:h-[550px]
+    h-[450px]
+    relative
+    bg-[url("images/banner1.jpg")]
+    bg-no-repeat
+    bg-cover
+    bg-center
+}
+.banner-single-slide2{
+    @apply
+    w-full
+    h-[550px]
+    relative
+    bg-[url("images/ad1.jpg")]
+    bg-no-repeat
+    bg-cover
+    bg-center
+}
+.slide-2{
+    @apply
+    bg-[url("images/banner2.jpg")]
+}
+.slide-3{
+    @apply
+    bg-[url("images/banner3.jpg")]
+}
+.banner-slider{
+    @apply
+    w-[900px]
+}
+.banner-image{
+    @apply
+    w-full
+}
+@media screen and (max-width: 1728px) {
+    .banner-row{
+        @apply
+        flex-wrap
+        gap-[30px]
+    }
+    .banner-image{
+        @apply
+        w-[900px]
+        h-[500px]
+    }
+}
+@media screen and (max-width: 912px) {
+    .banner-row{
+        @apply
+        flex-wrap
+        gap-[30px]
+    }
+    .banner-slider{
+        @apply
+        w-[790px]
+    }
+    .banner-image{
+        @apply
+        w-[790px]
+    }
+}
+@media screen and (max-width: 800px) {
+    .banner-slider{
+        @apply
+        w-[500px]
+    }
+    .banner-image{
+        @apply
+        w-[500px]
+    }
+}
+@media screen and (max-width: 505px) {
+    .banner-slider{
+        @apply
+        w-[320px]
+    }
+    .banner-image{
+        @apply
+        w-[320px]
+    }
+}
+.service{
+    @apply
+    mt-[60px]
+    py-[50px]
+    bg-[#F2F8FD]
+}
+.service-row{
+    @apply
+    flex
+    justify-center
+    flex-wrap
+    gap-[50px]
+}
+.service-card{
+    @apply
+    w-[300px]
+}
+.service-card .service-head{
+    @apply
+    font-Poppins
+    font-semibold
+    text-[24px]
+    flex
+    gap-[20px]
+    text-[#222222]
+    items-center
+    pb-[10px]
+}
+.service-card p{
+    @apply
+    font-Poppins
+    font-normal
+    text-[16px]
+    flex
+    gap-[20px]
+    text-[#666666]
+    items-center
+}

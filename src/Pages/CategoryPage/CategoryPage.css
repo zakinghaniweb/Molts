@@ -1,0 +1,35 @@
+.category-heading{
+    @apply
+    pb-[20px]
+    pt-[20px]
+    border-b-[3px]
+    border-dashed
+    border-brandColor
+}
+.category-heading h1{
+    @apply
+    font-Playfair
+    font-extrabold
+    text-[28px]
+    text-black
+}
+.category-heading h1 span{
+    @apply
+    text-brandColor
+}
+.categorySelect{
+    @apply
+    py-[10px]
+    px-[30px]
+    box-content
+    rounded-xl
+    bg-brandColor
+    appearance-none
+    text-white
+    font-semibold
+}
+.categorySelect{
+    @apply
+    !py-[10px]
+    font-semibold
+}

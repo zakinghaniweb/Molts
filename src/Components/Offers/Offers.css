@@ -1,0 +1,83 @@
+.offers{
+    @apply
+    w-full
+    h-[350px]
+    lg:h-[650px]
+    bg-[url("images/christmast.jpg")]
+    bg-no-repeat
+    bg-cover
+    rounded-xl
+    relative
+    overflow-hidden
+}
+.offer2{
+    @apply
+    !bg-[url("images/blackFriday.jpg")]
+}
+.offer3{
+    @apply
+    !bg-[url("images/eid.jpg")]
+}
+.offers-text{
+    @apply
+    absolute
+    w-[80%]
+    lg:w-[43%]
+    bottom-[70px]
+    left-[20px]
+    lg:left-[70px]
+}
+.offers-text h1{
+    @apply
+    font-Playfair
+    font-extrabold
+    text-[30px]
+    lg:text-[48px]
+    text-white
+    pb-[15px]
+}
+.offers-text span{
+    @apply
+    text-brandColorLight
+}
+.offers-text p{
+    @apply
+    font-Poppins
+    font-normal
+    text-[14px]
+    lg:text-[18px]
+    text-gray-300
+    pb-[30px]
+    w-full
+    lg:w-[650px]
+}
+.offers-text a{
+    @apply
+    max-w-[200px]
+    font-Poppins
+    font-normal
+    text-[14px]
+    lg:text-[18px]
+    text-white
+    py-[13px]
+    px-[25px]
+    rounded-lg
+    bg-brandColor
+    flex
+    items-center
+    justify-center
+    hover:bg-blue-700
+    transition-all
+    gap-[10px]
+}
+.round-circle{
+    @apply
+    absolute
+    w-[1000px]
+    h-[1000px]
+    rounded-full
+    bg-[#ffffff2f]
+    left-[-130px]
+    bottom-[-465px]
+    backdrop-blur-md
+}

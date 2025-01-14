@@ -1,0 +1,101 @@
+#navbarsm {
+    @apply 
+    bg-brandColor 
+    py-4 w-full 
+    z-[99] 
+    top-0 block lg:hidden
+}
+#navbarsm .menu_row {
+    @apply 
+    flex justify-between 
+    items-center
+    gap-2
+}
+#navbarsm .menu_row .menu_logo a img {
+    @apply
+    w-[140px]
+}
+.menu-toggle button{
+    @apply
+    text-xl
+    text-white
+    p-[12px]
+    border-[2px]
+    border-white
+    rounded-full
+    hover:bg-white
+    hover:text-brandColor
+    transition-all
+}
+.sidenavbar{
+    @apply
+    w-screen
+    h-screen
+    bg-brandColor
+    z-[9999]
+    duration-300
+    top-0
+    fixed
+    overflow-y-auto
+}
+.sidenavbar-row{
+    @apply
+    w-full
+    px-[40px]
+    py-[30px]
+    flex
+    flex-col
+    gap-5
+}
+.sidenavbar-logo{
+    @apply
+    pb-[20px]
+    w-full
+    border-b-secendary
+    border-b-[2px]
+    border-dashed
+}
+.sidenavbar-logo img{
+    @apply
+    w-[130px]
+}
+.sidenavbar-search {
+    @apply 
+    overflow-hidden flex justify-between
+    rounded-full bg-white
+    w-full py-[12px] pl-[10px]
+}
+.sidenavbar-search button {
+    @apply 
+    bg-brandColor
+    p-[10px]
+    mr-[10px]
+    rounded-full
+    text-[20px]
+    text-white font-bold
+    transition-all
+    duration-[.3s]
+    hover:bg-[#174065]
+}
+.sidenavbar-search input {
+    @apply 
+    w-full
+    h-[35px]
+    border-none 
+    outline-none 
+    bg-transparent
+    pl-4
+}
+.sidenavbar-links{
+    @apply
+    flex
+    flex-col
+    gap-[15px]
+}
+.sidenavbar-links a{
+    @apply
+    font-Poppins
+    font-medium
+    text-[16px]
+    text-white
+}

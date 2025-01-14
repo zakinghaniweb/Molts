@@ -1,0 +1,65 @@
+footer {
+    @apply bg-brandColor
+}
+.footer_row {
+    @apply flex justify-between items-center flex-wrap gap-[50px] lg:gap-0
+}
+footer .row1 {
+    @apply pb-[72px] pt-[60px] relative
+}
+footer .row2 {
+    @apply pt-[115px] pb-[98px]
+}
+footer .row3 {
+    @apply pt-[38px] pb-[34px]
+}
+
+.footer_row .footer_logo img {
+    @apply w-[230px]
+}
+.footer_row .footer_text1 p {
+    @apply w-full lg:w-[526px] text-[18px] font-Poppins
+    text-white
+}
+footer .line1 {
+    @apply w-full h-[2px] bg-white
+}
+
+
+.footer_row .singleDrop {
+    @apply flex flex-col gap-[40px]
+}
+.footer_row .singleDrop h2 {
+    @apply font-bold text-[20px] font-Poppins text-white
+}
+.footer_row .singleDrop ul {
+    @apply flex flex-col gap-[18px]
+}
+.footer_row .singleDrop ul li a {
+    @apply text-[18px] font-Poppins text-white
+}
+
+
+.footer_row .singleDrop .dropText p {
+    @apply text-[18px] font-Poppins text-white w-full sm:w-[358px]
+    font-light
+}
+.footer_row .singleDrop .dropText input {
+    @apply w-full sm:w-[359px] py-[25px] rounded-[108px] pl-[23px]
+    text-[16px] font-Poppins text-[#6F6C90]
+    mt-[24px] mb-[16px]
+}
+.footer_row .singleDrop .dropText button{
+    @apply block py-[18px] px-[24px] bg-[#8b83df] rounded-[76px]
+    text-white text-[18px] font-Poppins
+}
+.footer_row h3 {
+    @apply text-white font-Poppins text-[18px]
+    hover:underline
+}
+.footer_row .footer_buttons {
+    @apply flex gap-4
+}
+.footer_row .footer_buttons a svg {
+    @apply text-white text-[25px]
+}

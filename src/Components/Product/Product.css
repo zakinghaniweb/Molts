@@ -1,0 +1,30 @@
+#product{
+    @apply
+    mt-[120px]
+}
+.product-row{
+    @apply
+    mt-[30px]
+    flex
+    justify-center
+    gap-[30px]
+    flex-wrap
+}
+.loadMore{
+    @apply
+    py-[10px]
+    px-[30px]
+    bg-white
+    border-[2px]
+    border-brandColor
+    text-brandColor
+    font-Poppins
+    font-medium
+    text-[16px]
+    mx-auto
+    block
+    hover:bg-brandColor
+    hover:text-white
+    transition-all
+    mt-[50px]
+}

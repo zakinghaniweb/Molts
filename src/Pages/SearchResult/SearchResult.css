@@ -1,0 +1,36 @@
+.search-heading{
+    @apply
+    pb-[20px]
+    pt-[20px]
+    mb-[50px]
+    border-b-[3px]
+    border-dashed
+    border-brandColor
+}
+.search-heading h1{
+    @apply
+    font-Playfair
+    font-extrabold
+    text-[28px]
+    text-black
+}
+.search-heading h1 span{
+    @apply
+    text-brandColor
+}
+.searchSelect{
+    @apply
+    py-[10px]
+    px-[30px]
+    box-content
+    rounded-xl
+    bg-brandColor
+    appearance-none
+    text-white
+    font-semibold
+}
+.searchSelect{
+    @apply
+    !py-[10px]
+    font-semibold
+}

@@ -1,0 +1,17 @@
+.common-heading {
+    @apply
+    pb-[20px]
+    border-b-[2px]
+    border-dashed
+    border-gray-800
+}
+.common-heading h2{
+    @apply
+    font-Playfair
+    font-bold
+    text-[30px]
+}
+.common-heading span{
+    @apply
+    text-brandColor
+}

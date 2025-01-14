@@ -1,0 +1,68 @@
+#singleProductPage {
+    @apply pt-[100px]
+}
+
+.mainProduct_row {
+    @apply flex flex-col gap-[20px] lg:gap-0 lg:flex-row justify-between items-center
+    2xl:justify-center 2xl:gap-[100px] relative
+}
+/* == */
+
+.product_image .cover{
+    @apply
+    max-w-[500px]
+    max-h-[600px]
+    lg:max-w-[500px]
+    lg:max-h-[600px]
+}
+.product_image .cover .zoom-container {
+    overflow: hidden;
+    width: 506px;
+    position: relative;
+    cursor: zoom-in;
+}
+.product_image .cover .zoom-container .zoom-image {
+    width: 506px;
+    transition: transform 0.2s ease;
+}
+/* ======== */
+.mainProduct_row .product_image .imageSelection {
+    @apply flex gap-4 mt-7
+}
+.mainProduct_row .product_image .imageSelection img {
+    @apply w-[100px] opacity-[.8] cursor-pointer
+}
+/* =============== */
+.mainProduct_row .product_text {
+    @apply py-[12px] px-[24px]
+}
+.mainProduct_row .product_text .title {
+    @apply flex flex-col gap-[12px]
+}
+.mainProduct_row .product_text .title h1 {
+    @apply text-[20px] font-Poppins text-[#252B42]
+}
+.mainProduct_row .product_text .title .review {
+    @apply flex text-[#F3CD03] text-[25px]
+}
+.mainProduct_row .product_text .title .price {
+    @apply text-[24px] font-Poppins text-green-500 font-bold
+}
+.mainProduct_row .product_text .descripttion {
+    @apply text-[#858585] w-[422px] font-Poppins my-[30px]
+}
+.mainProduct_row .product_text .line {
+    @apply w-[445px] h-[1px] bg-[#BDBDBD] mb-[126px]
+}
+/* === */
+.mainProduct_row .product_text .product_buttons {
+    @apply flex gap-[20px]
+}
+.mainProduct_row .product_text .product_buttons .single_button {
+    @apply w-[40px] h-[40px] bg-black text-white hover:bg-gray-200 hover:text-black transition-all
+    rounded-full text-[18px] flex justify-center items-center
+}
+.mainProduct_row .product_text .product_buttons .buy {
+    @apply py-[10px] px-[20px] bg-brandColor rounded-[5px]
+    text-white font-bold font-Poppins
+}

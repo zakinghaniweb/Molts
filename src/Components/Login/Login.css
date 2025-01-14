@@ -1,0 +1,63 @@
+#login {
+    @apply flex justify-center items-center h-[100vh] flex-col
+    bg-[#121826]
+}
+.login {
+    @apply pt-[21px] pb-[42px] px-[30px] bg-[#212936] rounded-[35px]
+}
+.login .login_head {
+    @apply flex flex-col items-center
+}
+.login .login_head h2 {
+    @apply font-Poppins text-[#B1E457] text-[30px] font-medium
+}
+.login .login_head h3 {
+    @apply text-[26px] text-[#6C727F] font-medium font-Poppins
+}
+
+/* ======================///////////////////============ */
+.login form {
+    @apply mt-[54px]
+    flex flex-col gap-[68px]
+}
+.login form .userBox {
+    @apply flex flex-col gap-[30px]
+}.login form .userBox .errorBox {
+    @apply bg-[#AE2D5D] h-[45px] rounded-[22px]
+    text-[20px] text-white
+    flex justify-center items-center gap-2
+}
+.login form .userBox .singleUserBox {
+    @apply flex items-center bg-[#6C727F]
+    h-[45px] rounded-[22px] overflow-hidden
+}
+.login form .userBox .singleUserBox .icon {
+    @apply text-[25px] my-[10px] mx-[16px] 
+}
+.login form .userBox .singleUserBox input {
+    @apply outline-none border-none bg-transparent
+    w-full border-[2px] 
+    text-[20px] text-[#C4C4C4] font-Poppins
+}
+.login form .userBox .singleUserBox .eye {
+    @apply text-[25px] text-white mr-[16px]
+    cursor-pointer
+}
+.login form button {
+    @apply text-[#6C727F] text-[24px] font-medium font-Poppins
+    rounded-[22px] py-[5px]
+}
+#login .login_text h4 {
+    @apply text-[18px] font-medium text-white
+    mt-[8px]
+}
+#login .login_text h4 a {
+    @apply text-[#B1E457]
+}
+
+
+
+
+#login .sideImg{
+    @apply absolute left-0 top-0 h-[100vh]
+}

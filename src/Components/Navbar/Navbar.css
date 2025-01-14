@@ -1,0 +1,132 @@
+#nav {
+    @apply bg-brandColor py-4 fixed w-full z-[99] top-0 hidden lg:block
+}
+#nav .menu_row {
+    @apply flex justify-between items-center
+    gap-2
+    relative
+}
+#nav .menu_row .menu_logo a img {
+    @apply w-[140px]
+}
+
+.menu_row .searchBar {
+    @apply overflow-hidden rounded-full bg-brandColor md:bg-white
+    sm:w-[300px] lg:w-[500px] py-[12px] pl-[10px]
+}
+.menu_row .searchBar1 {
+    @apply hidden md:flex
+}
+.menu_row .searchBar2 {
+    @apply md:hidden flex text-white font-Poppins
+    absolute top-[75px] translate-x-[-50%]
+}
+.menu_row .searchBar input {
+    @apply h-[35px] md:w-[175px] lg:w-[426px] border-none outline-none bg-transparent
+    pl-4
+}
+.menu_row .searchBar button {
+    @apply  bg-brandColor md:px-[16px] lg:p-[10px]
+    mr-[10px] lg:mr-[10px]
+    rounded-full
+    text-[20px] text-white font-bold
+    transition-all duration-[.3s] hover:bg-[#174065] focus-within:bg-[#174065]
+}
+.menu_row .searchBar2 button {
+    @apply py-[10px] px-[20px]
+}
+
+/* ==================//////////////================== */
+.menu_row .authBar {
+    @apply flex gap-4 items-center
+}
+.navbar-button{
+    @apply
+    px-[23px]
+    py-[8px]
+    flex
+    items-center
+    gap-[15px]
+    rounded-full
+    hover:bg-[#0f5392]
+    transition-all
+    relative
+}
+.navbar-button:hover .account-dropdown{
+    @apply
+    z-[1]
+    top-[60px]
+    opacity-100
+}
+.navbar-button .account-dropdown{
+    @apply
+    w-full
+    absolute
+    right-[-10px]
+    bg-white
+    rounded-sm
+    hover:bg-red-100
+    p-[10px]
+    transition-all
+    top-0
+    z-[-1]
+    opacity-0
+    duration-300
+}
+.navbar-button .account-dropdown li a{
+    @apply
+    font-Poppins
+    font-semibold
+    text-[14px]
+    text-red-500
+    text-center
+    w-full
+    block
+}
+.navbar-button svg{
+    @apply
+    text-2xl
+    text-white
+}
+.navbar-button .navbar-button-text h3{
+    @apply
+    font-Poppins
+    font-bold
+    text-[16px]
+    text-white
+}
+.navbar-button .navbar-button-text h4{
+    @apply
+    font-Poppins
+    font-semibold
+    text-[14px]
+    text-white
+}
+/* ================////////////////////////============= */
+
+
+/* +++++ Navbar 2 +++++ */
+#nav2{
+    @apply
+    w-full
+    bg-[#d5ebff]
+    fixed
+    top-[96px]
+    z-[98]
+    py-[10px]
+    hidden
+    lg:block
+}
+.nav2-row{
+    @apply
+    flex
+    gap-[40px]
+}
+.nav2-row li a{
+    @apply
+    font-Poppins
+    font-normal
+    text-[15px]
+    text-[#113b63]
+    hover:underline
+}

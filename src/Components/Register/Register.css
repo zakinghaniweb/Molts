@@ -1,0 +1,96 @@
+#register {
+    @apply flex justify-center items-center h-[100vh] flex-col
+    bg-[#121826]
+}
+.register {
+    @apply pt-[21px] pb-[42px] px-[30px] bg-[#212936] rounded-[35px]
+}
+.register .register_head {
+    @apply flex flex-col items-center
+}
+.register .register_head h2 {
+    @apply font-Poppins text-[#B1E457] text-[30px] font-medium
+}
+.register .register_head h3 {
+    @apply text-[26px] text-[#6C727F] font-medium font-Poppins
+}
+
+/* ======================///////////////////============ */
+.register form {
+    @apply mt-[54px]
+    flex flex-col gap-[68px]
+}
+.register form .userBox {
+    @apply flex flex-col gap-[30px]
+}
+.register form .userBox .errorBox {
+    @apply bg-[#AE2D5D] px-[12px] py-[13px] rounded-[22px]
+    text-[24px] text-white 
+    flex gap-2 flex-col
+}
+/* ====== */
+.register form .userBox .errorBox h2 {
+    @apply flex items-center gap-2
+}
+.register form .userBox .errorBox .type {
+    @apply ml-[17px]
+}
+.register form .userBox .errorBox .type li {
+    @apply text-[18px] list-disc
+}
+
+/* ===== */
+
+.register form .userBox .singleUserBox {
+    @apply flex items-center bg-[#6C727F]
+    h-[45px] rounded-[22px] overflow-hidden
+}
+.register form .userBox .singleUserBox .icon {
+    @apply text-[25px] my-[10px] mx-[16px] 
+}
+.register form .userBox .singleUserBox input {
+    @apply outline-none border-none bg-transparent
+    w-full border-[2px] 
+    text-[20px] text-[#C4C4C4] font-Poppins
+}
+.register form .userBox .singleUserBox .eye {
+    @apply text-[25px] text-white mr-[16px]
+    cursor-pointer
+}
+.register form button {
+    @apply text-[#6C727F] text-[24px] font-medium font-Poppins
+    rounded-[22px] py-[5px]
+}
+
+#register .register_text h4 {
+    @apply text-[18px] font-medium text-white
+    mt-[8px]
+}
+#register .register_text h4 a {
+    @apply text-[#B1E457]
+}
+
+
+
+
+#register .sideImg{
+    @apply absolute left-0 top-0 h-[100vh]
+}
+
+
+/* ////////////// */
+#register .sendAgain {
+    @apply bg-[#212936] px-[31px] pt-[56px] pb-[50px] rounded-2xl
+    flex flex-col items-center gap-8
+}
+#register .sendAgain h2 {
+    @apply text-[30px] text-[#B1E457] font-medium font-Poppins
+}
+#register .sendAgain h3 {
+    @apply w-[398px] text-[24px] text-[#C4C4C4] font-Poppins font-medium
+    text-center
+}
+#register .sendAgain button {
+    @apply text-[24px] text-[#121826] font-Poppins font-medium
+    bg-[#6C727F] px-[125px] py-[7px] rounded-[22px]
+}
